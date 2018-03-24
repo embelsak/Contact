@@ -45,16 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Econtact.cs">
-      <SubType>Form</SubType>
+    <Compile Include="..\..\..\..\..\Econtact.cs">
+      <Link>Econtact.cs</Link>
     </Compile>
-    <Compile Include="Econtact.Designer.cs">
+    <Compile Include="..\..\..\..\..\Econtact.Designer.cs">
       <DependentUpon>Econtact.cs</DependentUpon>
+      <Link>Econtact.Designer.cs</Link>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Econtact.resx">
+    <EmbeddedResource Include="..\..\..\..\..\Econtact.resx">
       <DependentUpon>Econtact.cs</DependentUpon>
+      <Link>Econtact.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
