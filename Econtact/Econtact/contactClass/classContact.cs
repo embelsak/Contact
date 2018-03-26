@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -72,7 +72,7 @@ namespace Econtact.contactClass
             try
             {
                 //Step 2:Create a SQL Query to insert data
-                string sql = "INSERT INTO tblContact(FirstName, LastName, ContactNo, Adrress, Gender) VALUES(@FirstName, @LastName, @ContactNo, @Adrress, @Gender)";
+                string sql = "INSERT INTO tblContact(FirstName, LastName, ContactNo, Address, Gender) VALUES(@FirstName, @LastName, @ContactNo, @Address, @Gender)";
                 //creating sql command using sql and conn
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 //Creatig parameters to add data
